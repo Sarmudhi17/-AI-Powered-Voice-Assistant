@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="battery cont">
+        <img src="https://png.pngtree.com/png-vector/20190912/ourmid/pngtree-full-battery-icon-vectors-png-image_1728085.jpg" class="icon" alt="battery"/>
+        <p id="battery"></p>
+    </div>
+    <div class="clock cont">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFxPkELa0FFsnqgG8OfzuixUNAdxCrxss9Bw&usqp=CAU" class="icon" alt="clock"/>
+        <p id="time"></p>
+      </div>
+      <div class="internet cont">
+        <img src="https://static.vecteezy.com/system/resources/previews/002/290/601/original/wifi-isolated-icon-black-flat-free-vector.jpg" class="icon" alt="wifi"/>
+        <p id="internet"></p>
+      </div>
+    <div class="machine">
+        <div class="temp">
+            <p id="location"></p>
+            <p id="country"></p>
+            <p id="weatherT"></p>
+            <p id="weatherD"></p>
+            <img src="" id="weatherIcon" />
+            <p id="oTemp"></p>
+            <p id="feelLikeTemp"></p>
+            <p id="minT"></p>
+            <p id="maxT"></p>
+        </div> 
+    </div>
+    
+    <button id = "start">
+        <div class="start_jarvis_btn">
+            <img src="https://media.tenor.com/keilw4TvGlMAAAAC/thinking-smiley-emoji-thinking.gif" alt="start">
+        </div>
+    </button>
+    
+    <button id = "stop">
+        <div class="stop_jarvis_btn">
+            <img src="https://gifdb.com/images/high/shh-silence-emoji-nv76axyl253vf0ie.gif" alt="stop">
+        </div>
+    </button>
+    <div class="jarvis_setup_middle">
+        <label for="">Your Name</label>
+        <input type="text" />
+        <br />
+        <label for="">Your Bio</label>
+        <input type="text" />
+        <br />
+        <label for="">Your Location</label>
+        <input type="text" />
+        <br />
+        <label for="">Your E-Mail</label>
+        <input type="text" />
+        <br />
+        <label for="">Your Phone no</label>
+        <input type="text" />
+        <br />
+        <label for="">GitHub Profile</label>
+        <input type="text" />
+        <br />
+        <button id="sub_btn">Submit</button>
+    </div>
+</body>
+<script src="./app.js"></script>
+<noscript>No js file found</noscript>
+</html>
